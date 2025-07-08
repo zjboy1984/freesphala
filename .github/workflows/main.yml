@@ -32,7 +32,7 @@ jobs:
           # 定义源镜像和目标镜像
           # 你可以修改这里的标签，比如 'latest' 或者一个具体的版本号 '1.7.4'
           SOURCE_IMAGE="tsl0922/ttyd:latest"
-          TARGET_IMAGE="${{ secrets.DOCKERHUB_USERNAME }}/ttyd:latest"
+          TARGET_IMAGE="lbzt/ttyd:latest"
 
           # 打印信息，方便调试
           echo "--- Syncing Docker Image ---"
